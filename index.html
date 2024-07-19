@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+
+    .about-container {
+      justify-items: center;
+      display: flex;
+      padding: 15px 10px;
+    }
+
+    .about-img {
+      display: flex;
+      justify-content: center;
+      position: relative;
+      top: 20%;
+      margin: 0 auto;
+      padding: 1rem;
+      width: 450px;
+      height: 450px;
+      overflow: hidden;
+    }
+
+    .about-text,
+    .contact-container p {
+      margin-bottom: var(--mb-4);
+      font-size: 20px;
+    }
+
+    .about {
+      background-color: rgb(234, 146, 231);
+      color: rgb(71, 15, 103);;
+      justify-content: center;
+      padding: 20px 10px;
+    }
+    @keyframes bouncing-text {
+      0% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-20px);
+      }
+      100% {
+        transform: translateY(0);
+      }
+    }
+
+      body {
+        background-color: rgb(149, 19, 144);
+        color: rgb(106, 201, 220);
+        padding: 50px;
+        font-family: bradley hand, puzzeled, cursive, sans-serif;
+        animation: bouncing-text 1s ease-in-out;
+      }
+      @keyframes bouncing-text {
+        0% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-20px);
+        }
+        100% {
+          transform: translateY(0);
+        }
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+      h2 {
+        text-align: center;
+        display: block;
+        font-size: 1.5em;
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+      }
+      header {
+        background-color: rgb(249, 182, 112);
+
+        
+      }
+      .heading {
+        font-size: 2em;
+        color: rgb(240, 0, 180);
+        text-align: center;
+        font-family: bradley hand, puzzeled, cursive, sans-serif;
+        transition: 2s;
+        -webkit-transition: 2s;
+        -moz-transition: 2s;
+        -o-transition: 2s;
+      }
+      p {
+        text-align: center;
+      }
+
+      .pages {
+        color: rgb(26, 25, 25);
+      }
+
+      .pages:hover {
+        cursor: pointer;
+      }
+      .img-fluid {
+        max-width: 350px;
+        height: auto;
+      }
+
+      code {
+        color: rgb(128, 100, 111);
+        font-weight: 1000;
+      }
+
+      .container {
+        display: flex;
+        grid-template-columns: repeat(4, 40px);
+        grid-area: auto;
+        padding: 25px;
+      }
+
+      .col {
+        grid-area: inherit;
+        padding: 10px;
+        font-size: 15px;
+        text-align: center;
+      }
+
+      .home {
+        background-image: url(sho1.png);
+        background-size: cover;
+        background-position: center;
+        height: 1000px; /* Adjust the height as needed */
+
+      }
+
+      .gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* Adjust as needed */
+        gap: 20px; /* Gap between items */
+        padding: 10px;
+      }
+
+      .hashtags {
+        text-align: center;
+        padding: 20px 10px;
+      }
+
+
+      .footer {
+        text-align: center;
+        font-size: small;
+      }
+      .footersentence {
+        text-align: center;
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        font-family: brush script mt;
+        font-weight: lighter;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="header" id="header">
+      <header class="header">
+        <!-- logo -->
+        <div>
+          <!-- menu -->
+          <table>
+            <tr>
+              <th scope="col">
+                <span><a href="#home" class="pages">home</a></span>
+              </th>
+              <th scope="col">
+                <span><a href="#about" class="pages">about</a></span>
+              </th>
+              <th scope="col">
+                <span><a href="#projects" class="pages">projects</a></span>
+              </th>
+              <th scope="col">
+                <span><a href="#gallery" class="pages">gallery</a></span>
+              </th>
+              <th scope="col">
+                <span><a href="#contact" class="pages">contact</a></span>
+              </th>
+            </tr>
+          </table>
+        </div>
+      </header>
+    </section>
+
+    <section class="home" id="home">
+      <p class="heading">Sho Madjozi: A Shining Star for Young Black Girls</p>
+      <h3>
+        <em
+          >Header Image: A vibrant photo of Sho Madjozi in action, showcasing
+          her energy and passion.</em
+        >
+      </h3>
+      <hr />
+    </section>
+
+    <section class="about" id="about">
+      <div class="row about-container">
+        <div
+          class="col-4 about-img"
+        >
+          <img src="sho4.png" class="img-fluid"
+            loading="lazy"
+            width="350px"
+          />
+        </div>
+        <div class="col-6">
+          <h2
+            class="about-subtitle"
+          >
+            Meet Sho Madjozi,
+          </h2>
+          <p
+            class="about-text"
+          >
+            <hr/>
+            a multifaceted artist and inspiring role
+            model for young black girls everywhere! 
+            <hr/>As a singer, rapper, poet, and
+            entrepreneur.
+            <hr/>Sho Madjozi embodies creativity, confidence, and
+            determination. Let's dive into her amazing projects and celebrate her
+            impact!
+            <hr/>
+            Importance Sho Madjozi's impact extends far beyond her art. 
+            <hr/>As a young
+            black woman herself, she represents a beacon of hope and inspiration for
+            girls who often lack representation in media and society. 
+            <hr/>Her confidence,
+            creativity, and dedication to uplifting others make her an exceptional
+            role model.
+          </p>
+          <br />
+        </div>
+      </div>
+
+    </section>
+    <section class="projects" id="projects">
+      <h2 class="section-title">MUSIC</h2>
+      <h2 class="sub-section-title">Album:</h2>
+      
+      <p>
+        <strong> What a Life</strong> - Release Date: December 2020 - Features:
+        - "Drama" - "Sjava" - "Makhadzi" - "Areyeng"
+      </p>
+      <h2 class="sub-section-title">EP:</h2>
+      <p>
+        Sho Madjozi - Release Date: June 30, 2017 - Features: - "Nqa" -
+        "Kumkanikazi" - "Gqom"
+      </p>
+      <p>
+        Touchline - Release Date: November 2019 (collaborative EP with
+        Touchline) - Features: - "Kung Foo" - "Mamela" - "Thanda"
+      </p>
+      <h2 class="sub-section-title">Singles:</h2>
+      <p>>"Dumi Hi Phone" - Release Date: 2017 - Features: None</p>
+      <p>> "Idhom" - Release Date: 2018 - Features: None</p>
+      <p>> "Wakanda Forever" - Release Date: 2018 - Features: None</p>
+      <p>> "Makhadzi" - Release Date: 2020 - Features: Makhadzi</p>
+      <p>> "Areyeng" - Release Date: 2020 - Features: None</p>
+
+      <h2 class="sub-section-title">Spoken Word & Poetry</h2>
+      <strong>>>Performances:</strong>
+      - TEDxJohannesburg (2018) - Poetry Africa (2019) - Word N Sound (2019)
+      <strong>>>Written works:</strong>
+      - "Sincerely, Sho Madjozi" (2020) - a collection of poetry and short
+      stories
+
+      <h2 class="sub-section-title">Shoma Stars</h2>
+      - Founded in 2020 - Mission: Empowering young girls through education and
+      mentorship - <em>>>Programs:</em>
+      - After-school tutoring and mentorship - Workshops on confidence,
+      self-esteem, and creativity - Scholarships for underprivileged girls Other
+      Ventures - Acting: - "Is'Thunzi" (2017) - a South African TV series -
+      "Dream: The Movie" (2020) - a short film - Fashion: - Collaborated with
+      African fashion brand, Maxhosa (2020) - Showcased her own fashion line,
+      "Sho Madjozi x IAMISIGO" (2020) - Endorsements: - Brand ambassador for
+      Coca-Cola (2020) - Partnered with Huawei (2020)
+
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <img src="album1.png" loading="lazy" />
+            <a
+              target="blank"
+              href="https://github.com/wendiemat/landing-page/tree/master/landing%20page"><h2> Limpopo Champions League</h2></a>
+            <code><p>
+         - Release Date: December 14,
+        2018 - Features: - "Dumi Hi Phone" - "Idhom" - "Wakanda Forever" - "Vula
+        Vala"
+      </p></code> 
+            
+          </div>
+          <div class="col">
+            <img src="album2.png" loading="lazy" />
+            <h2 class="work-heading">Landing Page: Oh So Natural</h2>
+            <p>created with <code>css</code> & <code>html</code></p>
+            <a
+              target="blank"
+              href="https://github.com/wendiemat/landing-page/tree/master/landing%20page"
+              >Code</a
+            >
+          </div>
+          <div class="col">
+            <img src="album3.png" loading="lazy" />
+            <h2 class="work-heading">Landing Page: Oh So Natural</h2>
+            <p>created with <code>css</code> & <code>html</code></p>
+            <a
+              target="blank"
+              href="https://github.com/wendiemat/landing-page/tree/master/landing%20page"
+              >Code</a
+            >
+          </div>
+          <div class="col">
+            <img src="album4.png" loading="lazy" />
+            <h2 class="work-heading">Landing Page: Oh So Natural</h2>
+            <p>created with <code>css</code> & <code>html</code></p>
+            <a
+              target="blank"
+              href="https://github.com/wendiemat/landing-page/tree/master/landing%20page"
+              >Code</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      Call To Action Join us in celebrating Sho Madjozi's awesomeness and
+      inspiring others to embrace their individuality and pursue their passions!
+    </section>
+    <section class="contact" id="contact">
+      Media Links: Connect with Sho Madjozi on various platforms to stay updated
+      on her latest projects and initiatives!
+    </section>
+
+    <section class="gallery" id="gallery">
+      <img src="sho1.png" class="img-fluid" />
+
+      <img src="sho2.png" class="img-fluid" />
+
+      <img src="sho3.png" class="img-fluid" />
+
+    </section>
+
+    <section class="hashtags" id="hashtags">
+      <h2 class="section-title">Hashtags:</h2>
+      <br />
+
+      <div class="hashtags-container bg-grid">
+        <div class="hashtags-box">
+          <span class="hashtags-name">#ShoMadjozi</span>
+          <span class="hashtags-name">#InspiringFemaleRoleModel</span>
+          <span class="hashtags-name">#YoungBlackGirls</span>
+          <span class="hashtags-name">#Empowerment</span>
+          <span class="hashtags-name">#Confidence</span>
+          <span class="hashtags-name">#Creativity</span>
+          <span class="hashtags-name">#BlackCindarella</span>
+          <span class="hashtags-name">#SesiMadjozi</span>
+        </div>
+      </div>
+    </section>
+    <em
+      >Visuals: Incorporate vibrant colors, dynamic images, and engaging
+      graphics to reflect Sho Madjozi's energy and creativity.</em
+    >
+    <section class="footer" id="footer">
+      <br />
+      this page was built by
+      <a href="https://www.instagram.com/wendiemat/" target="_blank">
+        wendy mathabela.
+      </a>
+    </section>
+  </body>
+</html>
